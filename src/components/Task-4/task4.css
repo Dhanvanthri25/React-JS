@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+
+.bgsb{
+    background-image: url('../../sky.jpeg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+}
+
+.sobox{
+    padding-top: 260px;
+    padding-bottom: 260px;
+}
+
+.like-color{
+    color: #fff !important;
+}
+
+.share-color{
+    color: #fff !important;
+}

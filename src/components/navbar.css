@@ -1,0 +1,11 @@
+.navbar{
+    background-color: rgb(108, 152, 235);
+}
+
+.nav-item{
+    color: #fff !important;
+}
+
+.link{
+    text-decoration: none;
+}

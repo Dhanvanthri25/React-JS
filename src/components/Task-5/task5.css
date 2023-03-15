@@ -1,0 +1,23 @@
+.not-info{
+    background-color: rgb(75, 144, 223);
+    color: #fff;
+    font-size: 20px;
+}
+
+.not-suc{
+    background-color: rgb(106, 230, 149);
+    color: #fff;
+    font-size: 20px;
+}
+
+.not-warn{
+    background-color: rgb(255, 196, 0);
+    color: #fff;
+    font-size: 20px;
+}
+
+.not-err{
+    background-color: rgb(236, 47, 47);
+    color: #fff;
+    font-size: 20px;
+}

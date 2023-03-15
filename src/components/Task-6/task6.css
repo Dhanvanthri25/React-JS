@@ -1,0 +1,29 @@
+.loginbg{
+    background: linear-gradient(135deg,#8c259c,#cd2ee6);
+}
+
+.login-box{
+    background-color: #fff;
+}
+
+.input-items {
+    background: transparent;
+    border: none;
+    outline: none;
+    height: 50px;
+}
+
+.div-combo{
+    background-color: rgba(128, 128, 128, 0.258) !important;
+}
+
+.form-btn{
+    height: 48px;
+    border: none;
+    background-color: #3de340;
+    color: #fff;
+}
+
+.sp-seperate{
+    color: #3de340;
+}
