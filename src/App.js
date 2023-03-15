@@ -10,6 +10,11 @@ import { SocialButtons } from './components/Task-4/task4';
 import { Notification } from './components/Task-5/task5';
 import { LoginDesign } from './components/Task-6/task6';
 import { TechnologyCards } from './components/Task-7/task7';
+import { Home } from './components/Portfolio/Home Page/home';
+import { Menubar } from './components/Portfolio/Menubar/menubar';
+import { Contact } from './components/Portfolio/Contact/contact';
+import { About } from './components/Portfolio/About/about';
+import { Design } from './components/Portfolio/Design&Developement/design';
 
 function App() {
   return (
@@ -23,6 +28,10 @@ function App() {
         <Route path='/notifications' element={[<Navbar/>,<Notification/>]}/>
         <Route path='/login' element={[<Navbar/>,<LoginDesign/>]}/>
         <Route path='/technologycard' element={[<Navbar/>,<TechnologyCards/>]}/>
+        <Route path='/profile' element={[<Menubar/>,<Home/>,<About/>,<Design/>,<Contact/>]}/>
+        <Route path='/home' element={[<Menubar/>,<Home/>]}/>
+        <Route path='/contact' element={[<Menubar/>,<Contact/>]}/>
+        <Route path='/about' element={[<Menubar/>,<About/>]}/>
       </Routes>
     </BrowserRouter>
     </>

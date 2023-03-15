@@ -1,3 +1,19 @@
 .tech-bg{
     background-color: #85dcb82a;
 }
+
+.card1-shadow{
+    border-top: 6px solid #fc4445;
+}
+
+.card2-shadow{
+    border-top: 6px solid #3feec3;
+}
+
+.card3-shadow{
+    border-top: 6px solid #5cdb95;
+}
+
+.card4-shadow{
+    border-top: 6px solid #e27d60;
+}

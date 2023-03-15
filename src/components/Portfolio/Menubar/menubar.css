@@ -1,0 +1,22 @@
+.menu-item{
+    color: #3c3c3d;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    color: #3c8ffc;
+}
+
+.btn-resume{
+    background-color: #3c8ffc;
+    color: #fff;
+}
+
+.btn-resume:hover{
+    background-color: #3c46fc;
+    color: #fff;
+}
+
+.menubar-bg{
+    backdrop-filter: blur(1px);
+}

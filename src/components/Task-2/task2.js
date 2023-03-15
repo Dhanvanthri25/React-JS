@@ -1,7 +1,7 @@
 import React from "react";
 import './task2.css';
-import Profile from '../../congrats-card-profile-img.png';
-import Watch from '../../congrats-card-watch-img.png'
+import Profile from '../../img/congrats-card-profile-img.png';
+import Watch from '../../img/congrats-card-watch-img.png';
 
 export function Congrats(){
     return(

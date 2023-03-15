@@ -1,0 +1,15 @@
+.contact-bg{
+    background-color: #cafafe6a;
+}
+
+.gmail-bg{
+    background-color: #fff;
+}
+
+.icons-list li{
+    list-style: none;
+}
+
+.icons-list li:hover{
+    cursor: pointer;
+}

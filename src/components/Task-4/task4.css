@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
 
 .bgsb{
-    background-image: url('../../sky.jpeg');
+    background-image: url('../../img/sky.jpeg');
     background-size: cover;
     height: 100vh;
 }

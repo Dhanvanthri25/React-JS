@@ -1,0 +1,7 @@
+.img-pop:hover{
+    transform: scale(1.1);
+}
+
+.list-arrow{
+    list-style-image: url('../images/right-arrow.png');
+}

@@ -1,11 +1,17 @@
-.navbar{
-    background-color: rgb(108, 152, 235);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+
+.head-bg{
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
 }
 
-.nav-item{
-    color: #fff !important;
+.navbar-style{
+    background-color: #32e1c9;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .link{
     text-decoration: none;
+    color: #fff;
 }
