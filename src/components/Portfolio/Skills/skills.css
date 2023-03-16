@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+.skills-head{
+    font-family: 'Crete Round', serif;
+}
+
+.skills{
+    list-style: none;
+}
+
+.skills-icon{
+    background-color: beige;
+}
+
+.skills-span{
+    color: #3c8ffc;
+}

@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 
-.about-head{
+.design-head{
     font-family: 'Crete Round', serif;
 }
 
-.about-span{
-    color: #3c8ffc;
+.card-content{
+    font-size: 90%;
 }
 
-.img-pop{
+.card-pop{
     transition-duration: 1s;
 }
 
-.img-pop:hover{
+.card-pop:hover{
+    cursor: pointer;
     transform: scale(1.1);
 }
 
-.list-arrow{
-    list-style-image: url('../images/right-arrow.png');
+.design-bg{
+    background-color: #cafafe7d;
+}
+
+.design-span{
+    color: #3c8ffc;
 }

@@ -1,6 +1,7 @@
 .menu-item{
     color: #3c3c3d;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .menu-item:hover{
@@ -18,5 +19,5 @@
 }
 
 .menubar-bg{
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
 }

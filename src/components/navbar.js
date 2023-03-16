@@ -20,6 +20,8 @@ export function Navbar(){
                         <Link to='/notifications' className="link"><li className="nav-item me-3">Notifications Application</li></Link>
                         <Link to='/login' className="link"><li className="nav-item me-3">Login Design</li></Link>
                         <Link to='/technologycard' className="link"><li className="nav-item me-3">Technology Cards</li></Link>
+                        <Link to='/hooks' className="link"><li className="nav-item me-3">Hooks</li></Link>
+                        <Link to='/fruitcount' className="link"><li className="nav-item me-3">Fruits Counter</li></Link>
                         <Link to='/profile' className="link"><li className="nav-item">Portfolio</li></Link>
                     </ul>
                 </div>

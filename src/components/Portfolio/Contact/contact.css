@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+.contact-head{
+    font-family: 'Crete Round', serif;
+}
+
 .contact-bg{
-    background-color: #cafafe6a;
+    background-color: #cafafe7d;
 }
 
 .gmail-bg{
@@ -12,4 +18,13 @@
 
 .icons-list li:hover{
     cursor: pointer;
+}
+
+.contact-text{
+    border: none;
+}
+
+.contact-textarea{
+    border: none;
+    height: 220px;
 }
