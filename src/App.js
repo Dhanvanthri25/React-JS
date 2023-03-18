@@ -10,14 +10,19 @@ import { SocialButtons } from './components/Task-4/task4';
 import { Notification } from './components/Task-5/task5';
 import { LoginDesign } from './components/Task-6/task6';
 import { TechnologyCards } from './components/Task-7/task7';
+import { Hooks } from './components/Task-8/task8';
+import { FruitCount } from './components/Task-9/task9';
 import { Home } from './components/Portfolio/Home/home';
 import { Menubar } from './components/Portfolio/Menubar/menubar';
 import { Contact } from './components/Portfolio/Contact/contact';
 import { About } from './components/Portfolio/About/about';
 import { Design } from './components/Portfolio/Design/design';
-import { Hooks } from './components/Task-8/task8';
-import { FruitCount } from './components/Task-9/task9';
 import { Skills } from './components/Portfolio/Skills/skills';
+import { FeedBack } from './components/Task-10/task10';
+import { FeedBackThanks } from './components/Task-10/feedback';
+import { DateFunction } from './components/Task-11/task11';
+import { Products } from './components/Task-12/task12';
+import { Work } from './components/Portfolio/Work/work';
 
 function App() {
   return (
@@ -33,11 +38,17 @@ function App() {
         <Route path='/technologycard' element={[<Navbar/>,<TechnologyCards/>]}/>
         <Route path='/hooks' element={[<Navbar/>,<Hooks/>]}/>
         <Route path='/fruitcount' element={[<Navbar/>,<FruitCount/>]}/>
-        <Route path='/profile' element={[<Menubar/>,<Home/>,<About/>,<Design/>,<Skills/>,<Contact/>]}/>
+        <Route path='/feedbackthanks' element={[<Navbar/>,<FeedBackThanks/>]}/>
+        <Route path='/feedback' element={[<Navbar/>,<FeedBack/>]}/>
+        <Route path='/datefunction' element={[<Navbar/>,<DateFunction/>]}/>
+        <Route path='/products' element={[<Navbar/>,<Products/>]}/>
+        <Route path='/profile' element={[<Menubar/>,<Home/>,<Work/>,<About/>,<Design/>,<Skills/>,<Contact/>]}/>
         <Route path='/home' element={[<Menubar/>,<Home/>]}/>
-        <Route path='/contact' element={[<Menubar/>,<Contact/>]}/>
+        <Route path='/work' element={[<Menubar/>,<Work/>]}/>
         <Route path='/about' element={[<Menubar/>,<About/>]}/>
+        <Route path='/contact' element={[<Menubar/>,<Design/>]}/>
         <Route path='/skills' element={[<Menubar/>,<Skills/>]}/>
+        <Route path='/contact' element={[<Menubar/>,<Contact/>]}/>
       </Routes>
     </BrowserRouter>
     </>

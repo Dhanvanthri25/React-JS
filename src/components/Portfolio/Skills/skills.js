@@ -17,7 +17,7 @@ export function Skills(){
         <>
         <div className="container-fluid" id="skills">
             <h1 className="text-center my-5 pt-5 fw-bolder skills-head">Skills & Education</h1>
-            <div className="col-lg-8 col-md-9 col-10 my-5 pt-5 mx-auto row">
+            <div className="col-lg-8 col-md-9 col-10 my-4 pt-5 mx-auto row">
                 <div className="col-lg-6">
                     <div className="col-lg-12 my-4 row text-center">
                         <div className="col-lg-3 col-md-3 col-3">
@@ -68,10 +68,28 @@ export function Skills(){
                     </div>
                     <div className="col-lg-12 my-4 row">
                         <div className="col-lg-4 text-lg-center">
+                            <h5 className="skills-span">2021</h5>
+                        </div>
+                        <div className="col-lg-8">
+                            <h5 className="skills-head">Bsc(Computer Science)</h5>
+                            <p>Karpagm Academy of Higher Education</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-12 my-4 row">
+                        <div className="col-lg-4 text-lg-center">
                             <h5 className="skills-span">2018</h5>
                         </div>
                         <div className="col-lg-8">
                             <h5 className="skills-head">HSC</h5>
+                            <p>Kings Matric Higher Secondary Schoool</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-12 my-4 row">
+                        <div className="col-lg-4 text-lg-center">
+                            <h5 className="skills-span">2016</h5>
+                        </div>
+                        <div className="col-lg-8">
+                            <h5 className="skills-head">SSLC</h5>
                             <p>Kings Matric Higher Secondary Schoool</p>
                         </div>
                     </div>

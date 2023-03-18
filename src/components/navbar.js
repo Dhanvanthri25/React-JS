@@ -13,16 +13,46 @@ export function Navbar(){
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item me-3 text-decoration-underline head-bg">Moodle-Tasks</li>
-                        <Link to='/' className="link"><li className="nav-item me-3">Hello</li></Link>
-                        <Link to='/congrats' className="link"><li className="nav-item me-3">Congrats</li></Link>
-                        <Link to='/superover' className="link"><li className="nav-item me-3">Super Over</li></Link>
-                        <Link to='/socialbuttons' className="link"><li className="nav-item me-3">Social Buttons</li></Link>
-                        <Link to='/notifications' className="link"><li className="nav-item me-3">Notifications Application</li></Link>
-                        <Link to='/login' className="link"><li className="nav-item me-3">Login Design</li></Link>
-                        <Link to='/technologycard' className="link"><li className="nav-item me-3">Technology Cards</li></Link>
-                        <Link to='/hooks' className="link"><li className="nav-item me-3">Hooks</li></Link>
-                        <Link to='/fruitcount' className="link"><li className="nav-item me-3">Fruits Counter</li></Link>
-                        <Link to='/profile' className="link"><li className="nav-item">Portfolio</li></Link>
+                        <li className="nav-item me-3">
+                        <Link to='/profile' className="link">Portfolio</Link>
+                        </li>
+                        <li className="nav-item me-3">
+                        <Link to='/' className="link">Hello</Link>
+                        </li>
+                        <li className="nav-item me-3">
+                        <Link to='/congrats' className="link">Congrats</Link>
+                        </li>
+                        <li className="nav-item me-3">
+                        <Link to='/superover' className="link">Super Over</Link>
+                        </li>
+                        <li className="nav-item me-3">
+                        <Link to='/socialbuttons' className="link">Social Buttons</Link>
+                        </li>
+                        <li className="nav-item me-3">
+                        <Link to='/notifications' className="link">Notifications Application</Link>
+                        </li>
+                        <li className="nav-item me-3">
+                        <Link to='/login' className="link">Login Design</Link>
+                        </li>
+                        <li className="nav-item me-3">
+                        <Link to='/technologycard' className="link">Technology Cards</Link>
+                        </li>
+                        <li className="nav-item me-3">
+                        <Link to='/hooks' className="link">Hooks</Link>
+                        </li>
+                        <li className="nav-item me-3">
+                        <Link to='/fruitcount' className="link">Fruits Counter</Link>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link dropdown-toggle link" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </Link>
+                            <ul className="dropdown-menu">
+                                <li><Link to='/feedback' className="dropdown-item">FeedBack App</Link></li>
+                                <li><Link to='/datefunction' className="dropdown-item">Date Function</Link></li>
+                                <li><Link to='/products' className="dropdown-item">Products</Link></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
