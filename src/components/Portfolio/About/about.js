@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom";
 
 export function About(){
     return(
@@ -21,7 +22,7 @@ export function About(){
                     <li  className="text-justify list-arrow">I am a quick learner and constantly improve my skills not only in professional but also in multiple other fields. If hired for the position, I will continue to learn and transfer obtained knowledge and skills to other team members.</li>
                     <li className="text-justify list-arrow">You will never find a more disciplined person. I am never late and know how to value the time of other people. Especially in the engineering field, where everything should be clear, structured, and meet requirements.</li>
                 </ul>
-                <button type="button" class="btn btn-primary rounded-0 mb-3">Check Out My Project <FontAwesomeIcon icon={faArrowRight}/></button>
+                <Link to="/"><button type="button" class="btn btn-primary rounded-0 mb-3">Check Out My Project <FontAwesomeIcon icon={faArrowRight}/></button></Link>
             </div>
             <div className="col-lg-4">
                 <div className="p-4 shadow-lg rounded-4 img-pop">
@@ -31,9 +32,9 @@ export function About(){
         </div>
         <div>
             <ul className="icons-list">
-                <li><FontAwesomeIcon icon={faLinkedinIn}/></li>
-                <li className="my-2"><FontAwesomeIcon icon={faGithub}/></li>
-                <li><FontAwesomeIcon icon={faEnvelope}/></li>
+                <Link to='https://www.linkedin.com/in/udhaya-abisheik/' target="_blank" className="text-dark"><li><FontAwesomeIcon icon={faLinkedinIn}/></li></Link>
+                <Link to='https://github.com/udhayaabisheik' target="_blank" className="text-dark"><li className="my-2"><FontAwesomeIcon icon={faGithub}/></li></Link>
+                <Link to='mailto:someone@yoursite.com' target="_blank" className="text-dark"><li><FontAwesomeIcon icon={faEnvelope}/></li></Link>
             </ul>
         </div>
         </>

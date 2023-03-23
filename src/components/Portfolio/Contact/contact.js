@@ -5,6 +5,7 @@ import Phone from '../images/phone.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom";
 
 export function Contact(){
     return(
@@ -36,11 +37,11 @@ export function Contact(){
                 </form>
             </div>
             <div>
-                <ul className="icons-list ps-3">
-                    <li><FontAwesomeIcon icon={faLinkedinIn}/></li>
-                    <li className="my-2"><FontAwesomeIcon icon={faGithub}/></li>
-                    <li><FontAwesomeIcon icon={faEnvelope}/></li>
-                </ul>
+                    <ul className="icons-list ps-3">
+                        <li><Link to='https://www.linkedin.com/in/udhaya-abisheik/' target="_blank" className="text-dark"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
+                        <li className="my-2"><Link to='https://github.com/udhayaabisheik/' target="_blank" className="text-dark"><FontAwesomeIcon icon={faGithub} /></Link></li>
+                        <Link to='mailto:someone@yoursite.com' target="_blank" className="text-dark"><li><FontAwesomeIcon icon={faEnvelope} /></li></Link>
+                    </ul>
             </div>
         </div>
         </>

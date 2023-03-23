@@ -11,6 +11,7 @@ import Java from '../images/java.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom";
 
 export function Skills(){
     return(
@@ -71,7 +72,7 @@ export function Skills(){
                             <h5 className="skills-span">2021</h5>
                         </div>
                         <div className="col-lg-8">
-                            <h5 className="skills-head">Bsc(Computer Science)</h5>
+                            <h5 className="skills-head">B.Sc(Computer Science)</h5>
                             <p>Karpagm Academy of Higher Education</p>
                         </div>
                     </div>
@@ -97,9 +98,9 @@ export function Skills(){
             </div>
             <div>
                 <ul className="icons-list ps-3">
-                    <li><FontAwesomeIcon icon={faLinkedinIn} /></li>
-                    <li className="my-2"><FontAwesomeIcon icon={faGithub} /></li>
-                    <li><FontAwesomeIcon icon={faEnvelope} /></li>
+                <Link to='https://www.linkedin.com/in/udhaya-abisheik/' target="_blank" className="text-dark"><li><FontAwesomeIcon icon={faLinkedinIn}/></li></Link>
+                <Link to='https://github.com/udhayaabisheik' target="_blank" className="text-dark"><li className="my-2"><FontAwesomeIcon icon={faGithub}/></li></Link>
+                <Link to='mailto:someone@yoursite.com' target="_blank" className="text-dark"><li><FontAwesomeIcon icon={faEnvelope}/></li></Link>
                 </ul>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import './home.css';
 import { Link } from "react-router-dom";
+import { Link as Linkscroll } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 import { faAddressBook, faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -22,10 +23,10 @@ export function Home(){
                     <Link to='https://github.com/udhayaabisheik' target="_blank"><FontAwesomeIcon icon={faGithub} className="brands-icon m-3"/></Link>
                 </div>
                 <div className="rounded-circle shadow-lg ms-3 icon-bg">
-                    <FontAwesomeIcon icon={faEnvelope} className="brands-icon m-3"/>
+                    <Link to='mailto:someone@yoursite.com'><FontAwesomeIcon icon={faEnvelope} className="brands-icon m-3"/></Link>
                 </div>
                 <div className="rounded-circle shadow-lg ms-3 icon-bg">
-                    <FontAwesomeIcon icon={faAddressBook} className="brands-icon m-3"/>
+                    <Linkscroll to='contact'><FontAwesomeIcon icon={faAddressBook} className="brands-icon m-3"/></Linkscroll>
                 </div>
             </div>
         </div>

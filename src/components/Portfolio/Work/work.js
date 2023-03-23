@@ -6,6 +6,7 @@ import FeedBack from '../images/Feedback.png';
 import TechCard from '../images/Technologycard.png';
 import React from "react";
 import './work.css';
+import { Link } from "react-router-dom";
 
 export function Work(){
     return(
@@ -25,7 +26,7 @@ export function Work(){
                             <div className="card">
                                 <img src={Nike} className="card-img-top p-3 rounded-5" alt="" />
                                 <div className="card-body">
-                                    <h5 className="card-title design-head">Web Design</h5>
+                                    <h5 className="card-title design-head">Nike Products</h5>
                                     <p className="card-text card-content text-justify">A Nike product card page which conatins different types of nike products</p>
                                 </div>
                             </div>
@@ -34,7 +35,7 @@ export function Work(){
                             <div className="card">
                                 <img src={FeedBack} className="card-img-top p-3 rounded-5" alt="" />
                                 <div className="card-body">
-                                    <h5 className="card-title design-head">Frontend</h5>
+                                    <h5 className="card-title design-head">Feedback Form</h5>
                                     <p className="card-text card-content text-justify">A feedback from which receives the feeback and send a thank you response with smile to send feedback to admin</p>
                                 </div>
                             </div>
@@ -43,7 +44,7 @@ export function Work(){
                             <div className="card">
                                 <img src={TechCard} className="card-img-top p-3 rounded-5" alt="" />
                                 <div className="card-body">
-                                    <h5 className="card-title design-head">Backend</h5>
+                                    <h5 className="card-title design-head">Tech Cards</h5>
                                     <p className="card-text card-content text-justify">A technology card which conatins current trend types of IT employee works</p>
                                 </div>
                             </div>
@@ -52,9 +53,9 @@ export function Work(){
                 </div>
                 <div>
                     <ul className="icons-list ps-3">
-                        <li><FontAwesomeIcon icon={faLinkedinIn} /></li>
-                        <li className="my-2"><FontAwesomeIcon icon={faGithub} /></li>
-                        <li><FontAwesomeIcon icon={faEnvelope} /></li>
+                        <Link to='https://www.linkedin.com/in/udhaya-abisheik/' target="_blank" className="text-dark"><li><FontAwesomeIcon icon={faLinkedinIn} /></li></Link>
+                        <Link to='https://github.com/udhayaabisheik' target="_blank" className="text-dark"><li className="my-2"><FontAwesomeIcon icon={faGithub} /></li></Link>
+                        <Link to='mailto:someone@yoursite.com' target="_blank" className="text-dark"><li><FontAwesomeIcon icon={faEnvelope} /></li></Link>
                     </ul>
                 </div>
             </div>
