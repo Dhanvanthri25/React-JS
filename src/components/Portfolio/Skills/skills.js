@@ -17,8 +17,8 @@ export function Skills(){
     return(
         <>
         <div className="container-fluid" id="skills">
-            <h1 className="text-center my-5 pt-5 fw-bolder skills-head">Skills & Education</h1>
-            <div className="col-lg-8 col-md-9 col-10 my-4 pt-5 mx-auto row">
+            <h1 className="text-center my-lg-5 mt-5 pt-lg-5 my-0 pt-0 fw-bolder skills-head">Skills & Education</h1>
+            <div className="col-lg-8 col-md-9 col-10 my-4 pt-lg-5 mx-auto row">
                 <div className="col-lg-6">
                     <div className="col-lg-12 my-4 row text-center">
                         <div className="col-lg-3 col-md-3 col-3">

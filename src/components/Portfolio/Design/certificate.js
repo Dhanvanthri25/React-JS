@@ -1,8 +1,8 @@
 import React from "react";
-import './design.css';
+import './certificate.css';
 import FrontEnd from '../images/frontendcertificate.png';
 import Mysql from '../images/mysqlcertificate.png';
-import Depth from '../images/htmlandcssdepth.png';
+import Depth from '../images/depthcertificate.png';
 import MongoDB from '../images/mongodbcertificate.png';
 import Java from '../images/corejavacertificate.png';
 import JavaScript from '../images/javascriptcertificate.png';
@@ -11,11 +11,11 @@ import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom";
 
-export function Design(){
+export function Certificate(){
     return(
         <>
         <div className="container-fluid justify-content-center design-bg">
-        <h2 className="text-center mb-5 pt-5 design-head fw-bolder"><span className="design-span">Design</span> & <span className="design-span">Devlopment</span> Skills Together <br/> Makes A Great <span className="design-span">Developer</span></h2>
+        <h2 className="text-center mb-5 pt-5 design-head fw-bolder certificate-head">Certifications</h2>
             <div className="col-lg-9 mx-auto mb-5">
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col-lg-4">

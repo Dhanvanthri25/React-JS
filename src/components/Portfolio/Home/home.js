@@ -26,7 +26,7 @@ export function Home(){
                     <Link to='mailto:someone@yoursite.com'><FontAwesomeIcon icon={faEnvelope} className="brands-icon m-3"/></Link>
                 </div>
                 <div className="rounded-circle shadow-lg ms-3 icon-bg">
-                    <Linkscroll to='contact'><FontAwesomeIcon icon={faAddressBook} className="brands-icon m-3"/></Linkscroll>
+                    <Linkscroll to='/contact'><FontAwesomeIcon icon={faAddressBook} className="brands-icon m-3"/></Linkscroll>
                 </div>
             </div>
         </div>

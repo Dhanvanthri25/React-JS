@@ -16,7 +16,7 @@ import { Home } from './components/Portfolio/Home/home';
 import { Menubar } from './components/Portfolio/Menubar/menubar';
 import { Contact } from './components/Portfolio/Contact/contact';
 import { About } from './components/Portfolio/About/about';
-import { Design } from './components/Portfolio/Design/design';
+import { Certificate } from './components/Portfolio/Design/certificate';
 import { Skills } from './components/Portfolio/Skills/skills';
 import { FeedBack } from './components/Task-10/task10';
 import { FeedBackThanks } from './components/Task-10/feedback';
@@ -42,11 +42,11 @@ function App() {
         <Route path='/feedback' element={[<Navbar/>,<FeedBack/>]}/>
         <Route path='/datefunction' element={[<Navbar/>,<DateFunction/>]}/>
         <Route path='/products' element={[<Navbar/>,<Products/>]}/>
-        <Route path='/profile' element={[<Menubar/>,<Home/>,<Work/>,<About/>,<Design/>,<Skills/>,<Contact/>]}/>
+        <Route path='/profile' element={[<Menubar/>,<Home/>,<Work/>,<About/>,<Certificate/>,<Skills/>,<Contact/>]}/>
         <Route path='/home' element={[<Menubar/>,<Home/>]}/>
         <Route path='/work' element={[<Menubar/>,<Work/>]}/>
         <Route path='/about' element={[<Menubar/>,<About/>]}/>
-        <Route path='/contact' element={[<Menubar/>,<Design/>]}/>
+        <Route path='/contact' element={[<Menubar/>,<Certificate/>]}/>
         <Route path='/skills' element={[<Menubar/>,<Skills/>]}/>
         <Route path='/contact' element={[<Menubar/>,<Contact/>]}/>
       </Routes>

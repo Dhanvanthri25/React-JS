@@ -24,7 +24,7 @@ export function About(){
                 </ul>
                 <Link to="/"><button type="button" class="btn btn-primary rounded-0 mb-3">Check Out My Project <FontAwesomeIcon icon={faArrowRight}/></button></Link>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-8">
                 <div className="p-4 shadow-lg rounded-4 img-pop">
                     <img src={Blazer} className="img-fluid" alt=""/>
                 </div>
