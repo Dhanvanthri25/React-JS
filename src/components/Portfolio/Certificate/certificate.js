@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 export function Certificate(){
     return(
         <>
-        <div className="container-fluid justify-content-center design-bg">
+        <div className="container-fluid justify-content-center design-bg" id="certificate">
         <h2 className="text-center mb-5 pt-5 design-head fw-bolder certificate-head">Certifications</h2>
             <div className="col-lg-9 mx-auto mb-5">
             <div className="row row-cols-1 row-cols-md-3 g-4">

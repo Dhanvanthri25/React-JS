@@ -18,6 +18,7 @@ export function Menubar(){
                         <Linkscroll activeClass="active" to="home" spy={true} smooth={true} duration={300} className="menu-item"><li className="nav-item ps-4">Home</li></Linkscroll>
                         <Linkscroll activeClass="active" to="work" spy={true} smooth={true} duration={300} className="menu-item"><li className="nav-item ps-4">Work</li></Linkscroll>
                         <Linkscroll activeClass="active" to="about" spy={true} smooth={true} duration={300} className="menu-item"><li className="nav-item ps-4">About</li></Linkscroll>
+                        <Linkscroll activeClass="active" to="certificate" spy={true} smooth={true} duration={300} className="menu-item"><li className="nav-item ps-4">Certification</li></Linkscroll>
                         <Linkscroll activeClass="active" to="skills" spy={true} smooth={true} duration={300} className="menu-item"><li className="nav-item ps-4">Skills</li></Linkscroll>
                         <Linkscroll activeClass="active" to="contact" spy={true} smooth={true} duration={300} className="menu-item"><li className="nav-item ps-4">Contact</li></Linkscroll>
                         <Linkscroll activeClass="active" to="https://drive.google.com/file/d/1DN_Hi9LMgqoCrMZb6IO4ApoSshh3lb9u/view?usp=share_link" target="_blank" className="menu-item"><li className="nav-item ps-4 d-block d-lg-none">Resume</li></Linkscroll>

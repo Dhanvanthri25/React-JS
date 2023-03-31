@@ -16,7 +16,7 @@ import { Home } from './components/Portfolio/Home/home';
 import { Menubar } from './components/Portfolio/Menubar/menubar';
 import { Contact } from './components/Portfolio/Contact/contact';
 import { About } from './components/Portfolio/About/about';
-import { Certificate } from './components/Portfolio/Design/certificate';
+import { Certificate } from './components/Portfolio/Certificate/certificate';
 import { Skills } from './components/Portfolio/Skills/skills';
 import { FeedBack } from './components/Task-10/task10';
 import { FeedBackThanks } from './components/Task-10/feedback';
