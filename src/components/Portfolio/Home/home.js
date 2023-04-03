@@ -23,7 +23,7 @@ export function Home() {
                         <Link to='https://github.com/udhayaabisheik' target="_blank"><FontAwesomeIcon icon={faGithub} className="brands-icon m-3" /></Link>
                     </div>
                     <div className="rounded-circle shadow-lg ms-3 icon-bg">
-                        <Link to='mailto:someone@yoursite.com'><FontAwesomeIcon icon={faEnvelope} className="brands-icon m-3" /></Link>
+                        <Link to='mailto:n.u.abisheik2001@gmail.com'><FontAwesomeIcon icon={faEnvelope} className="brands-icon m-3" /></Link>
                     </div>
                     <div className="rounded-circle shadow-lg ms-3 icon-bg">
                         <Linkscroll to='contact'><FontAwesomeIcon icon={faAddressBook} className="brands-icon m-3" /></Linkscroll>
