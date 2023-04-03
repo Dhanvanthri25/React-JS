@@ -15,7 +15,7 @@ export function Contact() {
     const handelsubmit = async (event) => {
         event.preventDefault();
 
-        // var value = { headers: { 'Content-Type': 'application/json' } };
+        var value = { headers: { 'Content-Type': 'application/json' } };
 
         var userName = document.getElementById("username").value;
         var userEmail = document.getElementById("useremail").value;
@@ -33,7 +33,7 @@ export function Contact() {
             alert("Enter your message");
             window.location.reload();
         } else {
-            await axios.post("http://192.168.1.15:8080/signup/send/email", { "personName": userName, "personEmail": userEmail, "personMessage": userMsg })
+            await axios.post("http://192.168.1.7:8080/signup/send/email", { "personName": userName, "personEmail": userEmail, "personMessage": userMsg })
                 .then(function (res) {
                     if (res.data.responseMsg === 'error') {
                         window.location.reload();
