@@ -29,7 +29,7 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={[<Navbar/>,<HelloWorld/>]}/>
+        <Route path='/helloworld' element={[<Navbar/>,<HelloWorld/>]}/>
         <Route path='/congrats' element={[<Navbar/>,<Congrats/>]}/>
         <Route path='/superover' element={[<Navbar/>,<SuperOver/>]}/>
         <Route path='/socialbuttons' element={[<Navbar/>,<SocialButtons/>]}/>
@@ -42,7 +42,7 @@ function App() {
         <Route path='/feedback' element={[<Navbar/>,<FeedBack/>]}/>
         <Route path='/datefunction' element={[<Navbar/>,<DateFunction/>]}/>
         <Route path='/products' element={[<Navbar/>,<Products/>]}/>
-        <Route path='/profile' element={[<Menubar/>,<Home/>,<Work/>,<About/>,<Certificate/>,<Skills/>,<Contact/>]}/>
+        <Route path='/' element={[<Menubar/>,<Home/>,<Work/>,<About/>,<Certificate/>,<Skills/>,<Contact/>]}/>
         <Route path='/home' element={[<Menubar/>,<Home/>]}/>
         <Route path='/work' element={[<Menubar/>,<Work/>]}/>
         <Route path='/about' element={[<Menubar/>,<About/>]}/>

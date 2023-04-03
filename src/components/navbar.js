@@ -14,10 +14,10 @@ export function Navbar(){
                     <ul className="navbar-nav">
                         <li className="nav-item me-3 text-decoration-underline head-bg">Moodle-Tasks</li>
                         <li className="nav-item me-3">
-                        <Link to='/profile' className="link">Portfolio</Link>
+                        <Link to='/' className="link">Portfolio</Link>
                         </li>
                         <li className="nav-item me-3">
-                        <Link to='/' className="link">Hello</Link>
+                        <Link to='/helloworld' className="link">Hello</Link>
                         </li>
                         <li className="nav-item me-3">
                         <Link to='/congrats' className="link">Congrats</Link>
