@@ -5,17 +5,6 @@ import './menubar.css';
 import Code from '../images/coding.png';
 
 export function Menubar() {
-    const onButtonClick = () => {
-        fetch('Udhaya Abisheik.N (RESUME).pdf').then(response => {
-            response.blob().then(blob => {
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'Udhaya Abisheik.N (RESUME).pdf';
-                alink.click();
-            })
-        })
-    }
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top menubar-bg p-2">
@@ -35,10 +24,10 @@ export function Menubar() {
                             <Linkscroll activeClass="active" to="skills" spy={true} smooth={true} duration={300} className="menu-item"><li className="nav-item ps-lg-4">Skills</li></Linkscroll>
                             <Linkscroll activeClass="active" to="contact" spy={true} smooth={true} duration={300} className="menu-item"><li className="nav-item ps-lg-4">Contact</li></Linkscroll>
                             <Link to='/helloworld' className="menu-item"><li className="nav-item ps-lg-4">Myworks</li></Link>
-                            <li onClick={onButtonClick} className="nav-item menu-item ps-lg-4 d-block d-lg-none">Resume</li>
+                            <Link to="https://drive.google.com/file/d/1gNDRhW4FWT2aqjBSMrrr611LTsjtlFOX/view?usp=share_link" target="_blank" className="menu-item"><li className="nav-item ps-lg-4 d-block d-lg-none">Resume</li></Link>
                         </ul>
                     </div>
-                    <button type="button" onClick={onButtonClick} class="btn btn-resume rounded-0 me-4 d-none d-lg-block">Resume</button>
+                    <Link to="https://drive.google.com/file/d/1gNDRhW4FWT2aqjBSMrrr611LTsjtlFOX/view?usp=share_link" target="_blank" className="menu-item"><button type="button" class="btn btn-resume rounded-0 me-4 d-none d-lg-block">Resume</button></Link>
                 </div>
             </nav>
         </>

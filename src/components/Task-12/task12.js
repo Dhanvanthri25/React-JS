@@ -4,7 +4,7 @@ import './task12.css';
 export function Products() {
     const [details, setDetails] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:3000/data.json')
+        fetch('https://642a643d6bcf2c337b507c69--darling-squirrel-59b93f.netlify.app/data.json')
         .then(shoe => shoe.json())
         .then(data => setDetails(data))
     })
