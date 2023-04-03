@@ -15,7 +15,8 @@ export function Contact() {
     const handelsubmit = async (event) => {
         event.preventDefault();
 
-        var value = { headers: { 'Content-Type': 'application/json' } };
+        // var value = { headers: { 'Content-Type': 'application/json' } };
+        var value = { headers: {"Access-Control-Allow-Origin": "*"} };
 
         var userName = document.getElementById("username").value;
         var userEmail = document.getElementById("useremail").value;
