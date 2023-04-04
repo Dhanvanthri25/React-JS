@@ -16,7 +16,7 @@ export function Work() {
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col-lg-4 col-md-6 col-8 mx-auto">
                             <div className="card">
-                                <Link to='/products'><img src={Nike} className="card-img-top p-3 rounded-5" alt="" /></Link>
+                                <img src={Nike} className="card-img-top p-3 rounded-5" alt="" />
                                 <div className="card-body">
                                     <h5 className="card-title design-head">Nike Products</h5>
                                     <p className="card-text card-content text-justify">A Nike product card page which conatins different types of nike products</p>
@@ -25,7 +25,7 @@ export function Work() {
                         </div>
                         <div className="col-lg-4 col-md-6 col-8 mx-auto">
                             <div className="card">
-                                <Link to='/feedback'><img src={FeedBack} className="card-img-top p-3 rounded-5" alt="" /></Link>
+                                <img src={FeedBack} className="card-img-top p-3 rounded-5" alt="" />
                                 <div className="card-body">
                                     <h5 className="card-title design-head">Feedback Form</h5>
                                     <p className="card-text card-content text-justify">A feedback from which receives the feeback and send a thank you response with smile to send feedback to admin</p>
@@ -34,7 +34,7 @@ export function Work() {
                         </div>
                         <div className="col-lg-4 col-md-6 mx-md-auto col-8 mx-auto">
                             <div className="card">
-                                <Link to='/technologycard'><img src={TechCard} className="card-img-top p-3 rounded-5" alt="" /></Link>
+                                <img src={TechCard} className="card-img-top p-3 rounded-5" alt="" />
                                 <div className="card-body">
                                     <h5 className="card-title design-head">Tech Cards</h5>
                                     <p className="card-text card-content text-justify">A technology card which conatins current trend types of IT employee works</p>
