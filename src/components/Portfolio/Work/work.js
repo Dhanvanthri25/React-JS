@@ -48,9 +48,9 @@ export function Work() {
                 </div>
                 <div>
                     <ul className="icons-list d-none d-lg-block ps-3">
-                        <li><Link to='https://www.linkedin.com/in/udhaya-abisheik/' target="_blank" className="text-dark"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
-                        <li className="my-2"><Link to='https://github.com/udhayaabisheik' target="_blank" className="text-dark"><FontAwesomeIcon icon={faGithub} /></Link></li>
-                        <li><Link to='mailto:someone@yoursite.com' target="_blank" className="text-dark"><FontAwesomeIcon icon={faEnvelope} /></Link></li>
+                        <li><Link to='https://www.linkedin.com/in/dhanvanthri-ranganathan-56a073235/' target="_blank" className="text-dark"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
+                        <li className="my-2"><Link to='https://github.com/Dhanvanthri25' target="_blank" className="text-dark"><FontAwesomeIcon icon={faGithub} /></Link></li>
+                        <li><Link to='https://accounts.google.com/v3/signin/identifier?dsh=S822965044%3A1679908683655331&authuser=0&continue=https%3A%2F%2Fmail.google.com&ec=GAlAFw&hl=en&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession' target="_blank" className="text-dark"><FontAwesomeIcon icon={faEnvelope} /></Link></li>
                     </ul>
                 </div>
             </div>

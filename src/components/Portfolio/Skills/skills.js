@@ -63,35 +63,35 @@ export function Skills() {
                                 <h5 className="skills-span">2023</h5>
                             </div>
                             <div className="col-lg-8">
-                                <h5 className="skills-head">Master of Computer Application</h5>
-                                <p>Hindustan College of Arts and Science</p>
+                                <h5 className="skills-head">Master of Computer Application in Distance</h5>
+                                <p>Bharathiar University,Coimbatore</p>
                             </div>
                         </div>
                         <div className="col-lg-12 my-4 row">
                             <div className="col-lg-4 text-lg-center">
-                                <h5 className="skills-span">2021</h5>
+                                <h5 className="skills-span">2022</h5>
                             </div>
                             <div className="col-lg-8">
-                                <h5 className="skills-head">B.Sc(Computer Science)</h5>
-                                <p>Karpagm Academy of Higher Education</p>
+                                <h5 className="skills-head">B.Sc(Electronics & Communications Systems)</h5>
+                                <p>K G College Of Arts And Science,Coimbatore</p>
                             </div>
                         </div>
                         <div className="col-lg-12 my-4 row">
                             <div className="col-lg-4 text-lg-center">
-                                <h5 className="skills-span">2018</h5>
+                                <h5 className="skills-span">2019</h5>
                             </div>
                             <div className="col-lg-8">
                                 <h5 className="skills-head">HSC</h5>
-                                <p>Kings Matric Higher Secondary Schoool</p>
+                                <p>Kamarajar Matric Hr Sec School,Coimbatore</p>
                             </div>
                         </div>
                         <div className="col-lg-12 my-4 row">
                             <div className="col-lg-4 text-lg-center">
-                                <h5 className="skills-span">2016</h5>
+                                <h5 className="skills-span">2017</h5>
                             </div>
                             <div className="col-lg-8">
                                 <h5 className="skills-head">SSLC</h5>
-                                <p>Kings Matric Higher Secondary Schoool</p>
+                                <p>Kamarajar Matric Hr Sec School,Coimbatore</p>
                             </div>
                         </div>
                     </div>
@@ -101,9 +101,9 @@ export function Skills() {
                 </div>
                 <div>
                     <ul className="icons-list d-none d-lg-block ps-3">
-                        <li><Link to='https://www.linkedin.com/in/udhaya-abisheik/' target="_blank" className="text-dark"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
-                        <li className="my-2"><FontAwesomeIcon icon={faGithub} /><Link to='https://github.com/udhayaabisheik' target="_blank" className="text-dark"></Link></li>
-                        <li><Link to='mailto:someone@yoursite.com' target="_blank" className="text-dark"><FontAwesomeIcon icon={faEnvelope} /></Link></li>
+                        <li><Link to='https://www.linkedin.com/in/dhanvanthri-ranganathan-56a073235/' target="_blank" className="text-dark"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
+                        <li className="my-2"><Link to='https://github.com/Dhanvanthri25' target="_blank" className="text-dark"><FontAwesomeIcon icon={faGithub} /></Link></li>
+                        <li><Link to='https://accounts.google.com/v3/signin/identifier?dsh=S822965044%3A1679908683655331&authuser=0&continue=https%3A%2F%2Fmail.google.com&ec=GAlAFw&hl=en&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession' target="_blank" className="text-dark"><FontAwesomeIcon icon={faEnvelope} /></Link></li>
                     </ul>
                 </div>
             </div>

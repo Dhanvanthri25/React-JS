@@ -1,11 +1,11 @@
 import React from "react";
 import './certificate.css';
-import FrontEnd from '../images/frontendcertificate.png';
-import Mysql from '../images/mysqlcertificate.png';
-import Depth from '../images/depthcertificate.png';
-import MongoDB from '../images/mongodbcertificate.png';
-import Java from '../images/corejavacertificate.png';
-import JavaScript from '../images/javascriptcertificate.png';
+import FrontEnd from '../images/INTRO FRONT END CERTIFICATE.jpg';
+import Mysql from '../images/CSS CERTIFICATION.jpg';
+import Depth from '../images/HTML & CSS DEPTH CERTIFICATION.jpg';
+import MongoDB from '../images/CERTIFICATE OF CRUD IN MONGOdb.jpg';
+import Java from '../images/LEARNQUEST CORE JAVA_page-0001.jpg';
+import JavaScript from '../images/CERTIFICATE OF AWS Cloud Technical Essentials.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faCopyright, faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -20,7 +20,7 @@ export function Certificate() {
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col-lg-4">
                             <div className="card card-pop">
-                                <Link to="https://coursera.org/share/f2c0e817b82402e4e6c3d42c92e41a39" target="_blank"><img src={FrontEnd} className="card-img-top p-2" alt="" /></Link>
+                                <Link to="https://www.coursera.org/account/accomplishments/verify/SMVCEAXTJFSH" target="_blank"><img src={FrontEnd} className="card-img-top p-2" alt="" /></Link>
                                 <div className="card-body">
                                     <h5 className="card-title design-head">Front-End Developement</h5>
                                 </div>
@@ -28,7 +28,7 @@ export function Certificate() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card card-pop">
-                                <Link to="https://coursera.org/share/276dc6faf3fb21e5a3ce9110cc7e695f" target="_blank"><img src={Java} className="card-img-top p-2" alt="" /></Link>
+                                <Link to="https://www.coursera.org/account/accomplishments/specialization/GCYKHQJY3WF2" target="_blank"><img src={Java} className="card-img-top p-2" alt="" /></Link>
                                 <div className="card-body">
                                     <h5 className="card-title design-head">Core Java</h5>
                                 </div>
@@ -36,9 +36,9 @@ export function Certificate() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card card-pop">
-                                <Link to="https://coursera.org/share/4765f5a628e93f7e89540126a3ee0b46" target="_blank"><img src={Mysql} className="card-img-top p-2" alt="..." /></Link>
+                                <Link to="https://www.coursera.org/account/accomplishments/verify/DF67RSUUFCS2" target="_blank"><img src={Mysql} className="card-img-top p-2" alt="..." /></Link>
                                 <div className="card-body">
-                                    <h5 className="card-title design-head">MySQL</h5>
+                                    <h5 className="card-title design-head">CSS</h5>
                                 </div>
                             </div>
                         </div>
@@ -48,15 +48,15 @@ export function Certificate() {
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col-lg-4">
                             <div className="card card-pop">
-                                <Link to="https://coursera.org/share/93ed274d2227b94c48f8750ed1d8650e" target="_blank"><img src={JavaScript} className="card-img-top p-2" alt="" /></Link>
+                                <Link to="https://www.coursera.org/account/accomplishments/verify/TNSMLQXDHQF4" target="_blank"><img src={JavaScript} className="card-img-top p-2" alt="" /></Link>
                                 <div className="card-body">
-                                    <h5 className="card-title design-head">JavaScript</h5>
+                                    <h5 className="card-title design-head">AWS</h5>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className="card card-pop">
-                                <Link to="https://coursera.org/share/3d127ce9767b6ca9dbcbd46a2c313786" target="_blank"><img src={Depth} className="card-img-top p-2" alt="" /></Link>
+                                <Link to="https://www.coursera.org/account/accomplishments/verify/85HNFQ37JXTT" target="_blank"><img src={Depth} className="card-img-top p-2" alt="" /></Link>
                                 <div className="card-body">
                                     <h5 className="card-title design-head">HTML and CSS Depth</h5>
                                 </div>
@@ -64,7 +64,7 @@ export function Certificate() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card card-pop">
-                                <Link to="https://coursera.org/share/d06815298852514c1647f0fccb3aa33e" target="_blank"><img src={MongoDB} className="card-img-top p-2" alt="..." /></Link>
+                                <Link to="https://www.coursera.org/account/accomplishments/verify/BVPZAKL7QWQE" target="_blank"><img src={MongoDB} className="card-img-top p-2" alt="..." /></Link>
                                 <div className="card-body">
                                     <h5 className="card-title design-head">MongoDB</h5>
                                 </div>
@@ -77,9 +77,9 @@ export function Certificate() {
                 </div>
                 <div>
                     <ul className="icons-list d-none d-lg-block ps-3">
-                        <li><Link to='https://www.linkedin.com/in/udhaya-abisheik/' target="_blank" className="text-dark"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
-                        <li className="my-2"><Link to='https://github.com/udhayaabisheik' target="_blank" className="text-dark"><FontAwesomeIcon icon={faGithub} /></Link></li>
-                        <li><Link to='mailto:someone@yoursite.com' target="_blank" className="text-dark"><FontAwesomeIcon icon={faEnvelope} /></Link></li>
+                        <li><Link to='https://www.linkedin.com/in/dhanvanthri-ranganathan-56a073235/' target="_blank" className="text-dark"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
+                        <li className="my-2"><Link to='https://github.com/Dhanvanthri25' target="_blank" className="text-dark"><FontAwesomeIcon icon={faGithub} /></Link></li>
+                        <li><Link to='https://accounts.google.com/v3/signin/identifier?dsh=S822965044%3A1679908683655331&authuser=0&continue=https%3A%2F%2Fmail.google.com&ec=GAlAFw&hl=en&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession' target="_blank" className="text-dark"><FontAwesomeIcon icon={faEnvelope} /></Link></li>
                     </ul>
                 </div>
             </div>

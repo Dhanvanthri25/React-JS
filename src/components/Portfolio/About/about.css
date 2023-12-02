@@ -19,3 +19,13 @@
 .list-arrow{
     list-style-image: url('../images/right-arrow.png');
 }
+
+.pad{
+    padding-top: 140px;
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 800px) {
+    pad{
+        padding-top: -10px;
+    }
+  } */

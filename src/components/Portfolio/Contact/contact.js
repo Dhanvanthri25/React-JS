@@ -55,11 +55,11 @@ export function Contact() {
                     <div className="col-lg-10 m-md-5 mx-auto justify-content-between my-4 row">
                         <div className="mb-3 col-lg-6 d-flex rounded-2 gmail-bg py-2">
                             <img src={Email} className="col-lg-2 col-2 mx-lg-2 mx-md-4 me-2" alt="" />
-                            <p className="col-lg-10 my-3 text-start">udhayaabisheik.n@gmail.com</p>
+                            <p className="col-lg-12 my-3 text-start">dhanvanthriranganathan@gmail</p>
                         </div>
                         <div className="mb-3 col-lg-5 d-flex rounded-2 gmail-bg py-2">
                             <img src={Phone} className="col-lg-2 col-2 mx-lg-2 mx-md-4" alt="" />
-                            <p className="col-lg-10 my-3 text-start">+91 8270627707</p>
+                            <p className="col-lg-10 my-3 text-start">+91 9360581936</p>
                         </div>
                     </div>
                     {showForm ? (
@@ -84,9 +84,9 @@ export function Contact() {
                 </div>
                 <div>
                     <ul className="icons-list d-none d-lg-block ps-3">
-                        <li><Link to='https://www.linkedin.com/in/udhaya-abisheik/' target="_blank" className="text-dark"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
-                        <li className="my-2"><Link to='https://github.com/udhayaabisheik/' target="_blank" className="text-dark"><FontAwesomeIcon icon={faGithub} /></Link></li>
-                        <li><Link to='mailto:someone@yoursite.com' target="_blank" className="text-dark"><FontAwesomeIcon icon={faEnvelope} /></Link></li>
+                        <li><Link to='https://www.linkedin.com/in/dhanvanthri-ranganathan-56a073235/' target="_blank" className="text-dark"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
+                        <li className="my-2"><Link to='https://github.com/Dhanvanthri25' target="_blank" className="text-dark"><FontAwesomeIcon icon={faGithub} /></Link></li>
+                        <li><Link to='https://accounts.google.com/v3/signin/identifier?dsh=S822965044%3A1679908683655331&authuser=0&continue=https%3A%2F%2Fmail.google.com&ec=GAlAFw&hl=en&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession' target="_blank" className="text-dark"><FontAwesomeIcon icon={faEnvelope} /></Link></li>
                     </ul>
                 </div>
             </div>
