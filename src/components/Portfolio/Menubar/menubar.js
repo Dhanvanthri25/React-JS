@@ -24,10 +24,10 @@ export function Menubar() {
                             <Linkscroll activeClass="active" to="skills" spy={true} smooth={true} duration={300} className="menu-item"><li className="nav-item ps-lg-4">Skills</li></Linkscroll>
                             <Linkscroll activeClass="active" to="contact" spy={true} smooth={true} duration={300} className="menu-item"><li className="nav-item ps-lg-4">Contact</li></Linkscroll>
                             <Link to='/helloworld' className="menu-item"><li className="nav-item ps-lg-4">Myworks</li></Link>
-                            <Link to="https://drive.google.com/file/d/1rCHsxnEM6w2ggdOSIBAgLq2j19yk79Ao/view" target="_blank" className="menu-item"><li className="nav-item ps-lg-4 d-block d-lg-none">Resume</li></Link>
+                            <Link to="https://drive.google.com/file/d/1MhORKe9pC9cr8woQ3VdSMdaC7aQbdIqD/view?usp=drive_link " target="_blank" className="menu-item"><li className="nav-item ps-lg-4 d-block d-lg-none">Resume</li></Link>
                         </ul>
                     </div>
-                    <Link to="https://drive.google.com/file/d/1rCHsxnEM6w2ggdOSIBAgLq2j19yk79Ao/view" target="_blank" className="menu-item"><button type="button" class="btn btn-resume rounded-0 me-4 d-none d-lg-block">Resume</button></Link>
+                    <Link to="https://drive.google.com/file/d/1MhORKe9pC9cr8woQ3VdSMdaC7aQbdIqD/view?usp=drive_link " target="_blank" className="menu-item"><button type="button" class="btn btn-resume rounded-0 me-4 d-none d-lg-block">Resume</button></Link>
                 </div>
             </nav>
         </>
